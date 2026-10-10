@@ -1,0 +1,9 @@
+# Copy to local.properties. Never commit this file.
+sdk.dir=/path/to/Android/sdk
+
+# Release signing. Absent values make the release build fail rather than
+# produce an unsigned artifact.
+BEMYCHEF_KEYSTORE_PATH=/path/to/bemychef-release.jks
+BEMYCHEF_KEYSTORE_PASSWORD=
+BEMYCHEF_KEY_ALIAS=bemychef
+BEMYCHEF_KEY_PASSWORD=
