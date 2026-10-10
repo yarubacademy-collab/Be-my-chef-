@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">كن شيفي</string>
+    <string name="loading">جارٍ التحميل…</string>
+    <string name="offline">لا يوجد اتصال بـ كن شيفي.</string>
+</resources>
