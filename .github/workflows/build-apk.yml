@@ -18,12 +18,11 @@ jobs:
       - uses: gradle/actions/setup-gradle@v4
 
       - name: Build debug APK
-        working-directory: android
         run: sh gradlew :app:assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: bemychef-debug-apk
-          path: android/app/build/outputs/apk/debug/*.apk
+          path: app/build/outputs/apk/debug/*.apk
           if-no-files-found: error
